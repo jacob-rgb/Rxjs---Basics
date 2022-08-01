@@ -1,0 +1,10 @@
+<h1 class="title">
+    Interval & Timer
+</h1>
+
+<h3>Rxjs Counter <small>({{ counterIntervalTime }} milliseconds, limit = {{ counterLimit }})</small></h3>
+<span>
+    Count: {{ this.count }}
+</span>
+<hr>
+<button *ngIf="count === counterLimit" type="button" (click)="startInterval()">Restart</button>

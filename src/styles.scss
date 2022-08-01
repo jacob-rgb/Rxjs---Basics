@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(67, 142, 255);
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+    display: block;
+}

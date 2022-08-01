@@ -1,0 +1,18 @@
+
+
+.main-view {
+    width: 100%;
+    min-height: 90vh;
+    background-color: aquamarine;
+
+    .coordinates {
+        padding: 10px;
+        p {
+            font-size: 16px;
+            small {
+                font-size: 14px;
+            }
+        }
+
+    }
+}

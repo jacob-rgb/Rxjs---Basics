@@ -1,0 +1,53 @@
+
+header {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(67, 142, 255);
+
+    .logo-cont {
+        width: 28px;
+        img {
+            width: 100%;
+        }
+        border-radius: 10px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        .nav-button {
+            background-color: white;
+            padding: 6px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .nav-menu {
+            position: absolute;
+            z-index: 9;
+            padding: 10px 15px;
+            background-color: rgb(67, 142, 255);
+            top: 52px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .link {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: transform .2s linear;
+            text-decoration: none;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
